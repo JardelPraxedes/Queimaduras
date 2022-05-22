@@ -1,0 +1,173 @@
+:root {
+    font-size: 62.5%;
+    --color-page: #449c94;
+    --background-footer: #3a746f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    height: 6rem;
+    background: var(--color-page);
+    align-items: center;
+    width: 100vw;
+
+}
+header a img {
+    width: 20rem;
+    margin-left: 2rem;
+}
+
+header ul {
+    display: flex;
+    position: relative;
+}
+header ul a {
+    margin-right: 5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+header ul :hover  a {
+    text-decoration: underline;
+}
+.page-landing {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.page-landing h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-weight: bold;
+    color: var(--color-page);
+    text-shadow: 2px 2px 3px black;
+
+}
+.page-landing p {
+    line-height: 2.8rem;
+}
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lista {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    line-height: 5rem;
+    align-items: center;
+}
+.lista img {
+    margin-top: vh;
+    width: 7rem;
+}
+.paragrafo {
+    font-size: 2.5rem;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    line-height: 4rem;
+    margin-top: 1vh;
+}
+#menu a {  
+     box-shadow: 1px 1px black;
+
+}
+#menu :hover a {
+    background: var(--color-page);
+    font-size: 1.85rem;
+}
+#menu h2 {
+    font-size: 2.5rem;
+    margin-top: 2vh;
+}
+#menu a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: 1.2rem;
+}
+#menu img {
+    width: 14rem;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 4rem;
+
+}
+.section img {
+    margin-top: 2vh;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+#section1 img {
+    margin-top: 5vh;
+}
+#section2 img {
+    margin-top: 5vh;
+    width: 8rem;
+}
+#section3 img {
+    margin-top: 5rem;
+}
+footer {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    background-color: var(--background-footer);
+}
+footer p {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 600;
+}
