@@ -23,7 +23,7 @@ body{
 header {
     display: flex;
     position: relative;
-    justify-content: space-between;
+    justify-content: center;
     /* flex-wrap: wrap; */
     height: 6rem;
     background: var(--color-page);
@@ -33,23 +33,8 @@ header {
 }
 header a img {
     width: 20rem;
-    margin-left: 2rem;
 }
 
-header ul {
-    display: flex;
-    position: relative;
-}
-header ul a {
-    margin-right: 5rem;
-    text-decoration: none;
-    color: white;
-    font-size: 1.4rem;
-    font-weight: 600;
-}
-header ul :hover  a {
-    text-decoration: underline;
-}
 .page-landing {
     width: 100%;
     height: auto;
@@ -157,6 +142,16 @@ header ul :hover  a {
 #section3 img {
     margin-top: 5rem;
 }
+.ilustracoes {
+    display: flex;
+    position: relative;
+}
+.ilustracoes img {
+    width: 20rem;
+    margin-right: 2vw;
+    box-shadow: 1px 1px 2px 1px black;
+}
+
 footer {
     display: flex;
     position: relative;
